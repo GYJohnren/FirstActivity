@@ -1,7 +1,9 @@
+
+
 .navbar {
     padding: 10px;
     width: 100vw;
-    background-color: black;
+    background-color: rgb(32, 90, 21);
 }
 .container-fluid {
     display: flex;
@@ -11,9 +13,7 @@
     align-items: center;
     color: #f2f2f2;
 }
-.navbar-toggler-icon {
-     color: white;
-}
+
 nav .navbar-brand {
     font-size: 30px;
     font-weight: bold;
@@ -21,9 +21,49 @@ nav .navbar-brand {
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .navbar-nav {
     margin-left: auto;
+    margin-top: 2vh;
 }
+
+.navbar-nav ul li{
+    display: inline-flex;
+}
+
+.navbar-nav ul li a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav li a:hover{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color:  rgb(59, 247, 2);
+}
+.navbar-title{
+    margin: 0;
+    font-size: 40px;
+}
+
+.navbar-title h2{
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.indicator {
+    background-color: rgb(255, 255, 255);
+    border-radius: 18%;
+}   
+

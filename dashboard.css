@@ -1,85 +1,53 @@
-/* styles.css */
+*{
+  margin: 0%;
+  padding: 0%; 
+  box-sizing: border-box;
 
-/* Reset some default browser styles */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-  margin: 0;
-  padding: 0;
+  
+}
+body{
+  font-family:'Times New Roman', Times, serif ;
 }
 
-/* Set a background color for the body */
-body {
-  background-color: #f8f9fa; /* You can choose any color you prefer */
+.row {
+  padding: 1vh 10vh 0vh 10vh;
 }
 
-/* Style the navigation bar */
-.navbar {
-  background-color: #343a40; /* Dark background color */
-  color: #ffffff; /* Text color */
-}
-
-.navbar-title {
-  color: #ffffff; /* Text color for the title */
-  font-size: 1.5em; /* Adjust the font size as needed */
-  font-weight: bold;
-}
-
-.navbar-nav ul {
-  list-style: none;
-}
-
-.navbar-nav ul li {
-  display: inline-block;
-  margin-right: 15px;
-}
-
-.nav-link {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* Style the dashboard section */
-.dashb {
-  padding: 20px;
-  text-align: center;
-}
-
-.header {
-  margin-bottom: 20px;
-}
-
-.jobs-700 {
-  max-width: 700px;
+.row img{
   width: 100%;
-}
-
-/* Style the container for the cards */
-.container-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-/* Style the individual cards */
-.ol-card {
-  flex-basis: calc(33.3333% - 20px); /* 3 cards in a row with some spacing */
-  margin-bottom: 20px;
-}
-
-.card {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Style the footer */
-footer {
-  background-color: #343a40;
-  color: #ffffff;
-  padding: 20px 0;
+  padding: 0px;
   text-align: center;
+  border-radius: 5px;
+}
+
+.headernga {
+  text-align: center;
+  margin-top: 3vh;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
+
+.col h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
+
+.col h4{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
+
+.col p{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
+
+footer{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 5vh;
+  font-family: 'Times New Roman', Times, serif;
 }
