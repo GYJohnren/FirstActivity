@@ -1,0 +1,29 @@
+.navbar {
+    padding: 10px;
+    width: 100vw;
+    background-color: black;
+}
+.container-fluid {
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: #f2f2f2;
+}
+.navbar-toggler-icon {
+     color: white;
+}
+nav .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
